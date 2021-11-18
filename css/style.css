@@ -200,7 +200,7 @@ svg {
 @media (max-width: 1200px){
   .wrapper {
     width: 100%;
-    padding: var(--spaceMD);
+    padding: var(--spaceXS);
   }
 
   .img {
