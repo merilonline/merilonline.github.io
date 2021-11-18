@@ -74,6 +74,7 @@ svg {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("../images/avatar.jpg");
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     grid-area : 1 / 1 / span 1 / span 1; 
     margin: var(--spaceXL) auto;
 }
@@ -250,4 +251,25 @@ a {
       margin: var(--spaceSM);
       padding: var(--spaceSM);     
     }
+}
+
+
+/* background effect */
+:root {
+  background: linear-gradient(-180deg, #431200, #000000);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 100%;
+	}
+	50% {
+		background-position: 100% 0%;
+	}
+	100% {
+		background-position: 0% 100%;
+	}
 }
