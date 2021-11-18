@@ -96,7 +96,12 @@ svg {
     margin-bottom: var(--spaceSM);
 }
 
-.bio-details header{
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.bio-details header {
     font-size: var(--md);
     font-weight: var(--light);
 }
